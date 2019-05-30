@@ -1,0 +1,32 @@
+{
+  "name": "request-alpn",
+  "version": "1.0.0",
+  "description": "Request.js monkey patched to pass ALPN protocol arguments",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/tap test --jobs=10 --coverage-report=html --no-browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fijimunkii/request-alpn.git"
+  },
+  "keywords": [
+    "alpn",
+    "request",
+    "http",
+    "https"
+  ],
+  "author": "Harrison Powers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fijimunkii/request-alpn/issues"
+  },
+  "homepage": "https://github.com/fijimunkii/request-alpn#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "pem": "^1.14.2",
+    "tap": "^14.2.0"
+  }
+}
